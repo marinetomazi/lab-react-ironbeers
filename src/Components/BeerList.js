@@ -34,7 +34,7 @@ class BeerList extends React.Component {
                     return (
                     <div key={beer._id}>    
                         <img src={beer.image_url}></img>
-                        <Link to={`/beers/${beer._id}`}>
+                        <Link to={`/${beer._id}`}>
                         <h3>{beer.name}</h3>
                         </Link>
                         <h4>{beer.tagline}</h4>
