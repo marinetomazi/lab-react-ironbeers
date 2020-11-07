@@ -5,6 +5,7 @@ import BeerList from './Components/BeerList';
 import RandomBeerDetails from './Components/RandomBeerDetails';
 import AddBeer from './Components/AddBeer';
 import Homepage from './Components/Home';
+import Header from './Components/Header'
 
 import service, {getBeer} from './service'
 
