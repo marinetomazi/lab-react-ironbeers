@@ -6,10 +6,14 @@ export default service
 
 
 function listBeers() {
-    return service.get('/') // Pronise
+    return service.get('/') // Promise
 }
 
 function getBeer(id) {
     return service.get(`/${id}`)
 }
-export {listBeers, getBeer}
+
+function getRandom() {
+    return service.get(`/random`)
+}
+export {listBeers, getBeer, getRandom}
