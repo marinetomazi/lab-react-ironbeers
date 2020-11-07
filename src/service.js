@@ -16,4 +16,8 @@ function getBeer(id) {
 function getRandom() {
     return service.get(`/random`)
 }
-export {listBeers, getBeer, getRandom}
+
+function newBeer(params) {
+    return service.post(`/new`, params )
+}
+export {listBeers, getBeer, getRandom, newBeer}
